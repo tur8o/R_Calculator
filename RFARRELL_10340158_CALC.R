@@ -23,3 +23,10 @@ multiplication <- function(x, y) {
 }
 
 multiplication(1,2)
+
+power_of <- function(x,y) {
+  return(x^y)
+}
+
+power_of(3,4)
+}
