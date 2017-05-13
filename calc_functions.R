@@ -1,15 +1,16 @@
+#Calculator functions
+
+#1 - addition
 addition <- function(x, y) {
   return(x + y)
 }
 
-addition(1,2)
-
+#2 - subtraction
 subtraction <- function(x, y) {
   return(x - y)
 }
 
-subtraction(1,2)
-
+#3 - division
 division <- function(x,y) {
   if(y == 0){ #cannot divide by zeror
     return ("Error! Cannot divide by zero!")
@@ -18,32 +19,25 @@ division <- function(x,y) {
   }
 }
 
-division(1,2)
-division(10,0)
-
+#4 - multiplication
 multiplication <- function(x, y) {
   return(x * y)
 }
 
-multiplication(1,2)
-
+#5 - exponent
 exponent <- function(x,y) {
   return(x^y)
 }
 
-exponent(3,4)
-
+#6 - square root
 square_root <-function(x) {
   if(x > 0){ #cannot find square root of negative number
     return (sqrt(x))
   } else {
     return ("Error! Number needs to be greater than or equal to zero!")
 }
-  
-square_root(4)
-square_root(0)
-square_root(-1)
-  
+
+#7 - tangent 
 tan <- function(x) {
   if(x %% 180 ==0){
     return (0)
@@ -54,25 +48,23 @@ tan <- function(x) {
   }
 }
 
-tan(5)
-
-sin <- function(x) {
+#8 - sine
+sine <- function(x) {
   return(sin(x*pi/180))
 }
 
-sin(34)
-
-cos <- function(x) {
+#9 - cosine
+cosine <- function(x) {
   return(cos(x*pi/180))
 }
 
-# cos(76)
+#10 - factorial
+factorial <- function(x){
+   y <- 1
+   for(i in 1:x){
+     y <-y*((1:x)[i])
+   }
+   return(y)
+}
 
-# factorial <- function(x){
-#   y <- 1
-#   for(i in 1:x){
-#     y <-y*((1:x)[i])
-#   }
-#   return(y)
-# }
 
