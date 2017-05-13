@@ -1,6 +1,7 @@
 #Calculator testing
 
 #import functions
+setwd("C:/Users/robert.farrell/Desktop/R Calculator")
 source("calc_functions.R")
 
 #1 - addition

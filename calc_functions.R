@@ -1,6 +1,6 @@
 #Calculator functions
 
-#Remove variables from the workspace and clear thee console
+#Remove variables from the workspace and clear the console
 rm(list=ls())
 clear <- function() cat(rep("\n",100))
 clear()
