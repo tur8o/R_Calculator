@@ -1,5 +1,8 @@
 #Calculator testing
 
+#import functions
+source("calc_functions.R")
+
 #1 - addition
 addition(2,1)
 addition(4,4)
@@ -34,36 +37,26 @@ square_root(4)
 square_root(0)
 square_root(-1)
 
-tan <- function(x) {
-  if(x %% 180 ==0){
-    return (0)
-  } else if(x%% 90 ==0){
-    return ("Error!")
-  } else {
-    return (tan(x*pi/180))
-  }
-}
-
+#6 - tangent
 tan(5)
+tan(-6)
+tan(0)
+tan(32)
 
-sin <- function(x) {
-  return(sin(x*pi/180))
-}
+#7 - sine
+sine(34)
+sine(-26)
+sine(0)
+sine(1)
 
-sin(34)
+#8 - cosine
+cosine(34)
+cosine(-26)
+cosine(0)
+sine(1)
 
-cos <- function(x) {
-  return(cos(x*pi/180))
-}
-
-cos(76)
-
-factorial <- function(x){
-  y <- 1
-  for(i in 1:x){
-    y <-y*((1:x)[i])
-  }
-  return(y)
-}
-
-factorial()
+#9 - factorial 
+factorial(10)
+factorial(11)
+factorial(-6)
+factorial(0)

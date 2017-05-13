@@ -31,10 +31,10 @@ exponent <- function(x,y) {
 
 #6 - square root
 square_root <-function(x) {
-  if(x > 0){ #cannot find square root of negative number
-    return (sqrt(x))
-  } else {
+  if(x < 0){ #cannot find square root of negative number
     return ("Error! Number needs to be greater than or equal to zero!")
+  } else {
+    return (sqrt(x))
 }
 
 #7 - tangent 
@@ -60,11 +60,17 @@ cosine <- function(x) {
 
 #10 - factorial
 factorial <- function(x){
+  if(x < 1){ #number needs to be a positive whole number
+    return ("Error! Number needs to be greater than or equal to zero!")
+  } 
+  else {
    y <- 1
    for(i in 1:x){
      y <-y*((1:x)[i])
    }
    return(y)
+  }
 }
+
 
 
