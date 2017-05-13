@@ -1,5 +1,9 @@
 #Building a simple calculator in R Script
 
-source("calc_functions.R")
+source("C:\Users\robert.farrell\Desktop\R Calculator\calc_functions.R")
 
 multiplication(1,2)
+
+?source
+
+getwd()
