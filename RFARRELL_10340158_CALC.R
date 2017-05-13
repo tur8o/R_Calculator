@@ -1,9 +1,11 @@
 #Building a simple calculator in R Script
 
-source("C:\Users\robert.farrell\Desktop\R Calculator\calc_functions.R")
+source("calc_functions.R")
 
 multiplication(1,2)
+division(2,1)
 
 ?source
 
 getwd()
+setwd("C:/Users/robert.farrell/Desktop/R Calculator")

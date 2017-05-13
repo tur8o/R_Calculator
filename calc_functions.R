@@ -38,42 +38,41 @@ square_root <-function(x) {
     return (sqrt(x))
   } else {
     return ("Error! Number needs to be greater than or equal to zero!")
+}
+  
+square_root(4)
+square_root(0)
+square_root(-1)
+  
+tan <- function(x) {
+  if(x %% 180 ==0){
+    return (0)
+  } else if(x%% 90 ==0){
+    return ("Error!")
+  } else {
+    return (tan(x*pi/180))
   }
-  
-  square_root(4)
-  square_root(0)
-  square_root(-1)
-  
-  tan <- function(x) {
-    if(x %% 180 ==0){
-      return (0)
-    } else if(x%% 90 ==0){
-      return ("Error!")
-    } else {
-      return (tan(x*pi/180))
-    }
-  }
-  
-  tan(5)
-  
-  sin <- function(x) {
-    return(sin(x*pi/180))
-  }
-  
-  sin(34)
-  
-  cos <- function(x) {
-    return(cos(x*pi/180))
-  }
-  
-  cos(76)
-  
-  factorial <- function(x){
-    y <- 1
-    for(i in 1:x){
-      y <-y*((1:x)[i])
-    }
-    return(y)
-  }
-  
-  factorial(10)
+}
+
+tan(5)
+
+sin <- function(x) {
+  return(sin(x*pi/180))
+}
+
+sin(34)
+
+cos <- function(x) {
+  return(cos(x*pi/180))
+}
+
+# cos(76)
+
+# factorial <- function(x){
+#   y <- 1
+#   for(i in 1:x){
+#     y <-y*((1:x)[i])
+#   }
+#   return(y)
+# }
+
