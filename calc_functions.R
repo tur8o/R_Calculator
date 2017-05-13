@@ -1,5 +1,10 @@
 #Calculator functions
 
+#Remove variables from the workspace and clear thee console
+rm(list=ls())
+clear <- function() cat(rep("\n",100))
+clear()
+
 #1 - addition
 addition <- function(x, y) {
   return(x + y)
@@ -24,7 +29,7 @@ multiplication <- function(x, y) {
   return(x * y)
 }
 
-#5 - exponent
+#5 - exponentiate
 exponent <- function(x,y) {
   return(x^y)
 }

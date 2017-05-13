@@ -20,42 +20,42 @@ division(1,3)
 division(3,0)
 division(4,5)
 
-#3 - multiplication
+#4 - multiplication
 multiplication(3,3)
 multiplication(4,3)
 multiplication(3,6)
 multiplication(3,-1)
 
-#4 - exponent
+#5 - exponent
 exponent(1,3)
 exponent(1,-1)
 exponent(1,0)
 exponent(3,4)
 
-#5 - square_root
+#6 - square_root
 square_root(4)
 square_root(0)
 square_root(-1)
 
-#6 - tangent
+#7 - tangent
 tan(5)
 tan(-6)
 tan(0)
 tan(32)
 
-#7 - sine
+#8 - sine
 sine(34)
 sine(-26)
 sine(0)
 sine(1)
 
-#8 - cosine
+#9 - cosine
 cosine(34)
 cosine(-26)
 cosine(0)
-sine(1)
+cosine(1)
 
-#9 - factorial 
+#10 - factorial 
 factorial(10)
 factorial(11)
 factorial(-6)
