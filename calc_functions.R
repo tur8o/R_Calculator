@@ -40,6 +40,7 @@ square_root <-function(x) {
     return ("Error! Number needs to be greater than or equal to zero!")
   } else {
     return (sqrt(x))
+  }
 }
 
 #7 - tangent 
